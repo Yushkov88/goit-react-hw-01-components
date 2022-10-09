@@ -8,7 +8,7 @@ const Statistics = props => {
       {props.title ? <h2 className={style.title}>{props.title}</h2> : null}
       <ul className={style.statList}>
         {props.stats.map(element => {
-          let randomColor = Math.floor(Math.random() * 16777215).toString(16);
+          let randomColor = Math.floor(Math.random() * 816777215).toString(16);
 
           return (
             <li
