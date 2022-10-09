@@ -1,0 +1,40 @@
+.item {
+  display: flex;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #f0eeeb;
+  margin-bottom: 5px;
+  padding: 5px 0;
+  align-items: center;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.avatar {
+  background-color: antiquewhite;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.online {
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.offline {
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+}
